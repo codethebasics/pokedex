@@ -1,0 +1,28 @@
+#app {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas: 
+    "header"
+    "body"
+    "footer";
+
+}
+#header {
+  grid-area: header;
+}
+
+#sidebar {
+  grid-area: sidebar;
+  display: none;
+}
+
+#body {
+  grid-area: body;
+  overflow-y: auto;
+}
+
+#footer {
+  grid-area: footer;
+}

@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'minecraftia';
+  src: url('./assets/fonts/minecraftia/Minecraftia-Regular.ttf') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.minecraftia {
+  font-family: 'minecraftia', 'Courier New', Courier, monospace;
+}
+
+html, 
+body, 
+#root {
+  height: 100vh;
+}
