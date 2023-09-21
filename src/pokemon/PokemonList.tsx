@@ -1,4 +1,4 @@
-function PokemonIndex() {
+function PokemonList() {
   return (
     <div className="p-3">
       <div>pokemon index</div>
@@ -77,4 +77,4 @@ function PokemonIndex() {
   );
 }
 
-export default PokemonIndex;
+export default PokemonList;
